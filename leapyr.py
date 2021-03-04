@@ -7,3 +7,5 @@ def leapYear(year):
                 return str(year) + " is not a leap year"
         else:
             return str(year) + " is a leap year"
+    else:
+        return str(year) + " is not a leap year"
