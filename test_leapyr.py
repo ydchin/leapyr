@@ -3,7 +3,7 @@ import leapyr
 
 class TestCase(unittest.TestCase):
     def test1(self):
-        self.assertEqual(leapyr, "2000 is not a leap year")
+        self.assertEqual(leapyr, "2000 is a leap year")
 
 
 if __name__ == '__main__':
